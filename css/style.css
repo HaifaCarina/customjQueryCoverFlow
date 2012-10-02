@@ -1,0 +1,27 @@
+body{
+	background:white;
+	margin:0;
+	padding:0;
+	-moz-user-select: none;
+	-webkit-user-select:none;
+	user-select :none;
+}
+
+div#coverFlow{
+	position:absolute;
+	overflow:hidden;
+	padding:10px;
+    width: 800px;
+    height: 200px;
+    left: 25%;
+    top: 20%;
+	font-size:100%;
+    background-color: yellow;
+}
+
+div.snapshot{
+	position: absolute;
+    text-align: center;
+    
+    background-color: blue;
+}
